@@ -16,19 +16,24 @@
 		color: white;
 		padding: 0px;
 		background: url("images/gym-bg.jpg");
-		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-		height: 844px;
+		font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";		height: 844px;
 		}
 		
-		.left{border: 2px solid #552AB0; display: inline-block; position: absolute; top: 16px; left:    		60px;}
+		.left{
+/*			border: 2px solid #552AB0;*/
+			display: inline-block; position: absolute; top: 16px; left:    		60px;}
 		
 		.left img {width: 70px;} 
 /*		filter: invert(100%)*/
 		.left div {text-align: center; font-size: 12px}
 		
 		
-		.mid{border: 2px solid #EF1D2A; display: block; width: 40%; margin: 18px auto;}
-		.right{border: 2px solid #89B514; display: inline-block; position: absolute; top: 18px; right:    		34px;}
+		.mid{
+/*			border: 2px solid #EF1D2A;*/
+			display: block; width: 40%; margin: 18px auto;}
+		.right{
+/*			border: 2px solid #89B514;*/
+			display: inline-block; position: absolute; top: 42px; right:34px;}
 	
 		
 		.navbar{display: inline-block;}
@@ -37,7 +42,8 @@
 	
 		.navbar li a:hover, .navbar li a.active{color: #4995F0; text-decoration: underline;}
 	
-		.btn{font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"; color: white;
+		.btn{font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+			color: white;
 		margin: 0px 9px;
 		padding: 3px 4px;
 		background-color: black;
@@ -45,6 +51,39 @@
 		border-radius: 10px;
 		cursor: pointer;}
 		.btn:hover{background-color: #3E3C3C;}
+	
+		.container{border: 2px solid white; margin: 23px 57px;
+			padding: 16px 27px;
+			border-radius: 8px;
+		width: 33%;}
+		
+		.container h3 {text-align: center;}
+		
+		.container button{
+			margin: 8px auto;
+			display: block;
+			width: 58%;
+		}
+		.container button.btn{background-color: transparent; color: black;}
+		
+		
+		.formgroup{background-color: transparent;}
+		
+		.formgroup input{
+			text-align: center;
+			border: 2px solid pink;
+			margin: 4px auto;
+			padding: 4px 40px;
+			font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			font-size: 15px;
+			display: block;
+			border-radius: 5px;
+			background-color: transparent;
+			color: black;
+			font-weight: bolder;
+		}
+	
+	
 	</style>
 
 <body>
@@ -83,15 +122,36 @@
 	
 	
 	</div>
-	
-	
-	
-	
-	
-	
+
 	</header>
 	
+<<div class="container">
+	<h3>JOIN THE BEST JYM OF KARACHI</h3>
+	<form action="noaction.php">
 	
+	<div class="formgroup">
+		<input type="text" name="" placeholder="Enter Your Name">
+		</div>
+	
+	<div class="formgroup">
+		<input type="text" name="" placeholder="Enter Your Age">
+		</div>
+	<div class="formgroup">
+		<input type="text" name="" placeholder="Enter Your Gender">
+		</div>
+		
+		<div class="formgroup">
+		<input type="text" name="" placeholder="Enter Your Locality">
+		</div>
+		<div class="formgroup">
+		<input type="email" name="" placeholder="Enter Your Email ID">
+		</div>
+		<div class="formgroup">
+		<input type="number" name="" placeholder="Enter Your Phone Number">
+		</div>
+	<div><button class="btn">Submit</button></div>
+	</form>
+	</div>	
 
 
 </body>
