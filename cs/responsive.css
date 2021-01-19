@@ -76,7 +76,7 @@ width: 50px;
 }
 #home::before{
 	content: "";
-	background: url("file:///C:/Users/ahmed/OneDrive/Desktop/bootcamp2020/bootcamp/images/food.jpg");
+	background: url("C:/Users/ahmed/OneDrive/Desktop/bootcamp2020/bootcamp/images/food.jpg");
 	width: 100%;
 	height: 100%;
 	position: absolute;
