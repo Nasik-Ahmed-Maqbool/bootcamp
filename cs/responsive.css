@@ -96,15 +96,21 @@ width: 50px;
 	font-size: 1.5rem;
 /*utility classes*/
 	
-.h1-primary{
-	font-size: 2.8rem;
-	padding: 12px;	
+	
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 12px;
 }
+	
 
-.btn {padding: 4px 20px;
-		margin: 17px;
-		border: 2px solid #F9EFEF;
-		border-radius: 4px;
-		font-size: 1.2rem;
-		color: white;
-	} 
+
+.btn{padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
